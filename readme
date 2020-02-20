@@ -1,0 +1,4 @@
+to compile with c++: gcc main.cc Rectangle.cpp -fopenmp -std=c++11 -O3 -lstdc++
+to compile with cython: python setup.py build_ext --inplace
+
+
