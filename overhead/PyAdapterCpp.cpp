@@ -1454,6 +1454,7 @@ static PyObject *__pyx_pf_6cpplib_6CppLib_4apply(struct __pyx_obj_6cpplib_CppLib
  *         self.adpter.apply(mat)
  *         print('Success')             # <<<<<<<<<<<<<<
  *         return mat
+ * #==============================================================================
  */
   if (__Pyx_PrintOne(0, __pyx_n_s_Success) < 0) __PYX_ERR(1, 19, __pyx_L1_error)
 
@@ -1461,6 +1462,7 @@ static PyObject *__pyx_pf_6cpplib_6CppLib_4apply(struct __pyx_obj_6cpplib_CppLib
  *         self.adpter.apply(mat)
  *         print('Success')
  *         return mat             # <<<<<<<<<<<<<<
+ * #==============================================================================
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __pyx_convert_vector_to_py_std_3a__3a_vector_3c_double_3e___(__pyx_v_mat); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 20, __pyx_L1_error)

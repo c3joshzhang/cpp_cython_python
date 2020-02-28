@@ -18,3 +18,4 @@ cdef class CppLib:
         self.adpter.apply(mat)
         print('Success')
         return mat
+#==============================================================================

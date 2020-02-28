@@ -17,7 +17,7 @@ void Example::func(std::vector< std::vector<double> > &mat){
 
         #pragma omp parallel for
         for (int i = 0; i < dim0; i += 1){
-            std::cout << "processng: " << i << std::endl;
+            std::cout << "processing: " << i << std::endl;
             for (int j=0; j< dim1; j+=1){
                 if (i < 1000) 
                     mat[i][j] += 1.;
