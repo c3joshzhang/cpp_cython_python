@@ -1,9 +1,6 @@
 import os
-
-os.system('pip install numpy')
 os.system('pip install Cython')
-os.system('pip install setuptools')
-# os.system('yum install python-devel')
+os.system('pip install numpy')
 
 from setuptools import setup, find_packages, Extension
 from Cython.Build import cythonize

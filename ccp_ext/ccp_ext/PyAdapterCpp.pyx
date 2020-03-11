@@ -3,7 +3,7 @@
 # distutils: extra_link_args = -fopenmp -O2
 
 
-from PyAdapterH cimport PyAdapter
+from ccp_ext.PyAdapterH cimport PyAdapter
 import numpy as np
 cimport numpy as np
 
