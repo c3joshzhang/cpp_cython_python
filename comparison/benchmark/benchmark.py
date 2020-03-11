@@ -1,7 +1,7 @@
 import numpy as np
 import time
 
-from cpplib import CppLib
+from ccp_ext import CppLib
 from pylib import py_calculate_cost, numba_calculate_cost
 
 lib = CppLib()
