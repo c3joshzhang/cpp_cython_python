@@ -1,7 +1,0 @@
-PyAdapterCpp.cpp
-ServiceCost.cpp
-setup.py
-ccp_ext.egg-info/PKG-INFO
-ccp_ext.egg-info/SOURCES.txt
-ccp_ext.egg-info/dependency_links.txt
-ccp_ext.egg-info/top_level.txt
